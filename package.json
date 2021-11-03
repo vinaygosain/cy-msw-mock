@@ -1,0 +1,31 @@
+{
+  "name": "cy-msw-mock",
+  "version": "1.0.0",
+  "description": "The repo is a wrapper for mocking and uses cypress intercept (client) and msw(server) for ssr.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaygosain/cy-msw-mock.git"
+  },
+  "keywords": [
+    "cypress",
+    "msw",
+    "mock",
+    "test",
+    "e2e",
+    "integration",
+    "tests"
+  ],
+  "author": "vinay gosain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinaygosain/cy-msw-mock/issues"
+  },
+  "homepage": "https://github.com/vinaygosain/cy-msw-mock#readme",
+  "dependencies": {
+    "cypress": "^8.7.0"
+  }
+}
