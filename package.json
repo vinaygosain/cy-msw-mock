@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/vinaygosain/cy-msw-mock#readme",
   "dependencies": {
-    "cypress": "^8.7.0"
+    "cypress": "^8.7.0",
+    "msw": "^0.35.0"
   }
 }

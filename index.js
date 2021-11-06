@@ -1,10 +1,11 @@
 /* global window */
 
-import server from './lib/server';
-import browser from './lib/browser';
+const server = require('./lib/server');
+const browser = require('./lib/browser');
 
-if (typeof window !== 'undefined') {
-    export default browser;
-} else {
-    export default server;
+let mockServer = browser;
+if (typeof window === 'undefined') {
+    mockServer = server;
 }
+
+module.exports = mockServer;
