@@ -1,6 +1,6 @@
 {
   "name": "cy-msw-mock",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The repo is a wrapper for mocking and uses cypress intercept (client) and msw(server) for ssr.",
   "main": "index.js",
   "scripts": {
